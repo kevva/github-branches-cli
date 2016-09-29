@@ -1,0 +1,46 @@
+{
+  "name": "github-branches-cli",
+  "version": "0.0.0",
+  "description": "Get all branches from a GitHub repository",
+  "license": "MIT",
+  "repository": "kevva/github-branches-cli",
+  "author": {
+    "name": "Kevin Mårtensson",
+    "email": "kevinmartensson@gmail.com",
+    "url": "github.com/kevva"
+  },
+  "bin": {
+    "github-branches": "cli.js"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "cli.js"
+  ],
+  "keywords": [
+    "api",
+    "branch",
+    "branches",
+    "cli",
+    "cli-app",
+    "github",
+    "repo",
+    "repositories"
+  ],
+  "dependencies": {
+    "github-branches": "^3.0.0",
+    "meow": "^3.7.0"
+  },
+  "devDependencies": {
+    "ava": "*",
+    "execa": "^0.4.0",
+    "xo": "*"
+  },
+  "xo": {
+    "esnext": true
+  }
+}
