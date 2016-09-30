@@ -17,7 +17,7 @@ $ github-branches --help
 
   Example
     $ github-branches kevva/github-branches
-    $ github-branches kevva/github-branches --token 523ef69119eadg12
+    $ github-branches kevva/github-branches --token=523ef69119eadg12
 
   Options
     -t, --token  GitHub authentication token

@@ -6,17 +6,17 @@ const githubBranches = require('github-branches');
 const cli = meow(`
 	Usage
 	  $ github-branches kevva/github-branches
-	  $ github-branches kevva/github-branches --token 523ef69119eadg12
+	  $ github-branches kevva/github-branches --token=523ef69119eadg12
 
 	Options
-	  -t, --token    GitHub authentication toke
+	  -t, --token  GitHub authentication token
 `, {
 	string: ['token'],
 	alias: {t: 'token'}
 });
 
 if (cli.input.length === 0) {
-	console.error('Repository is required');
+	console.error('Specify a repository');
 	process.exit(1);
 }
 
